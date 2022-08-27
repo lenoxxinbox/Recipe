@@ -1,18 +1,18 @@
 public class Main {
     public static void main(String[] args) {
 
-        int eaters = 5; // сколько людей будут есть
+        int eaters = 5; // СЃРєРѕР»СЊРєРѕ Р»СЋРґРµР№ Р±СѓРґСѓС‚ РµСЃС‚СЊ
 
-        int water = 3000; // миллилитров воды
-        int potatoes = 5; // картофелин
-        int chicken = 6; // куриных бёдер
-        int spices = 10; // ложек специй
+        int water = 3000; // РјРёР»Р»РёР»РёС‚СЂРѕРІ РІРѕРґС‹
+        int potatoes = 5; // РєР°СЂС‚РѕС„РµР»РёРЅ
+        int chicken = 6; // РєСѓСЂРёРЅС‹С… Р±С‘РґРµСЂ
+        int spices = 10; // Р»РѕР¶РµРє СЃРїРµС†РёР№
 
-        System.out.println("Сварили суп. На одного человека вышло:");
-        System.out.println((water / eaters) + " миллилитров воды");
-        System.out.println((potatoes / eaters) + " картофелин(а)");
-        System.out.println((chicken / eaters) + " куриных(ое) бёдер(ро)");
-        System.out.println((spices / eaters) + " ложек(ка) специй");
+        System.out.println("РЎРІР°СЂРёР»Рё СЃСѓРї. РќР° РѕРґРЅРѕРіРѕ С‡РµР»РѕРІРµРєР° РІС‹С€Р»Рѕ:");
+        System.out.println((water / eaters) + " РјРёР»Р»РёР»РёС‚СЂРѕРІ РІРѕРґС‹");
+        System.out.println((potatoes / eaters) + " РєР°СЂС‚РѕС„РµР»РёРЅ(Р°)");
+        System.out.println((chicken / eaters) + " РєСѓСЂРёРЅС‹С…(РѕРµ) Р±С‘РґРµСЂ(СЂРѕ)");
+        System.out.println((spices / eaters) + " Р»РѕР¶РµРє(РєР°) СЃРїРµС†РёР№");
 
     }
 }
